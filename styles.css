@@ -1,98 +1,44 @@
-/* Global Styles */
+/* عام - تنسيق الجسم */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+}
+
+/* تنسيق العنوان الرئيسي */
+header h1 {
+    text-align: center;
     color: #333;
+    font-size: 36px;
+}
+
+/* تنسيق المقال */
+#latest-article {
+    background-color: #f4f4f4;  /* لون خلفية المقال */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+#latest-article h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#latest-article p {
+    font-size: 20px;
+    color: #555;
     line-height: 1.6;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 40px 0;
-}
-
-header h1 {
-    font-size: 48px;
-    margin: 0;
-}
-
-header p {
-    font-size: 20px;
-}
-
-#counter {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 40px;
-    background-color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-}
-
-textarea {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 25px;
-    padding: 15px;
-    font-size: 18px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    resize: none;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-#result p {
-    font-size: 22px;
-    margin-top: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-footer nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-footer nav ul li a {
-    color: white;
+/* تصميم الروابط */
+a {
     text-decoration: none;
-    font-size: 18px;
+    color: #007bff;
 }
 
-footer nav ul li a:hover {
-    text-decoration: underline;
-}
-
-footer p {
-    font-size: 16px;
-    margin-top: 20px;
+a:hover {
+    color: #0056b3;
 }

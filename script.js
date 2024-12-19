@@ -4,14 +4,13 @@ function countWordsAndCharacters() {
 
     // عد الكلمات
     const wordCount = text.trim().split(/\s+/).length;
-    // إذا كانت النص فارغًا، وضع العدد على صفر
     if (text.trim() === '') {
         document.getElementById('wordCountDisplay').innerText = 'Words: 0';
     } else {
         document.getElementById('wordCountDisplay').innerText = 'Words: ' + wordCount;
     }
 
-    // عد الأحرف
-    const charCount = text.replace(/\s/g, '').length; // إزالة الفراغات من النص لحساب الأحرف فقط
+    // عد الأحرف (إزالة الفراغات)
+    const charCount = text.replace(/\s/g, '').length;
     document.getElementById('charCountDisplay').innerText = 'Characters: ' + charCount;
 }

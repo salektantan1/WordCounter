@@ -11,34 +11,113 @@ body {
 header h1 {
     text-align: center;
     color: #333;
-    font-size: 36px;
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+header p {
+    text-align: center;
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* تنسيق الأداة */
+#word-counter-tool {
+    background-color: #f0f8ff;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#word-counter-tool h2 {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+#word-counter-tool textarea {
+    width: 100%;
+    height: 150px;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#word-counter-tool button {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#word-counter-tool button:hover {
+    background-color: #0056b3;
+}
+
+#word-counter-tool #wordCountDisplay {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #555;
 }
 
 /* تنسيق المقال */
 #latest-article {
-    background-color: #f4f4f4;  /* لون خلفية المقال */
-    padding: 20px;
+    background-color: #f4f4f4;
+    padding: 30px;
     margin-top: 40px;
     border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #latest-article h2 {
-    font-size: 28px;
+    font-size: 36px;
     color: #333;
+    margin-bottom: 20px;
 }
 
 #latest-article p {
-    font-size: 20px;
+    font-size: 24px;
     color: #555;
-    line-height: 1.6;
+    line-height: 1.8;
+    margin-bottom: 20px;
 }
 
-/* تصميم الروابط */
-a {
+/* تنسيق الفوتر */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: white;
+    font-size: 18px;
     text-decoration: none;
-    color: #007bff;
 }
 
-a:hover {
-    color: #0056b3;
+footer nav ul li a:hover {
+    color: #007bff;
 }

@@ -3,46 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Word and Character Counter - A free, fast, and easy-to-use tool for counting words, characters, and sentences in any text. Perfect for writers, students, and content creators.">
-    <title>Word and Character Counter</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Word Counter Tool for counting words, characters, and more.">
+    <title>Word Counter - Count Words, Characters, and More</title>
+    <link rel="stylesheet" href="styles.css"> <!-- ربط ملف CSS هنا -->
 </head>
 <body>
     <header>
-        <h1>Word and Character Counter</h1>
-        <p>Free, fast, and easy-to-use tool to count words and characters in your text.</p>
+        <h1>Welcome to WordCounter!</h1>
+        <p>Count Words, Characters, and More Easily!</p>
     </header>
-    
-    <section id="counter">
-        <textarea id="textInput" placeholder="Paste or type your text here..."></textarea>
-        <button onclick="countText()">Count Words & Characters</button>
-        <div id="result">
-            <p>Words: <span id="wordCount">0</span></p>
-            <p>Characters: <span id="charCount">0</span></p>
-        </div>
+
+    <!-- قسم أداة العد -->
+    <section id="word-counter-tool">
+        <h2>Count Words and Characters</h2>
+        <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+        <button onclick="countWords()">Count Words</button>
+        <div id="wordCountDisplay">Words: 0</div>
     </section>
 
+    <!-- المقال أسفل الأداة -->
     <section id="latest-article">
-        <h2>Latest Article: Best Writing Tools for Content Creators</h2>
-        <p>Discover the top writing tools that can improve your writing process and increase productivity. As a content creator, using the right tools is essential to streamline your workflow and produce high-quality content...</p>
-        
-        <p>There are numerous tools available that can help you enhance your writing experience, whether you're crafting blog posts, articles, or even creative writing. Some of the best tools include...</p>
-
-        <p>In this article, we'll explore some of the top writing tools available today that can assist you in improving your writing process and making your content stand out...</p>
+        <h2>Latest Article: How Word Count Affects Your Writing</h2>
+        <p>Word count plays a crucial role in content creation. Whether you're writing a blog post, an article, or any piece of content, knowing how many words you've written helps in managing your writing effectively...</p>
+        <p>There are many reasons to track your word count. From meeting deadlines to ensuring consistency across your content, this metric can help streamline your writing process and improve productivity...</p>
+        <p>In this article, we will discuss the importance of tracking word count, and how it can assist you in writing better and faster...</p>
     </section>
 
-
+    <!-- الفوتر (footer) -->
     <footer>
         <nav>
             <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="privacy.html">Privacy Policy</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <p>&copy; 2025 wordcounter.click</p>
+        <p>&copy; 2024 WordCounter.com</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- ربط ملف JS هنا -->
 </body>
 </html>

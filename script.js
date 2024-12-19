@@ -1,11 +1,12 @@
-function countText() {
-    var text = document.getElementById("textInput").value;
+// دالة عد الكلمات
+function countWords() {
+    const text = document.getElementById('textInput').value;
+    const wordCount = text.trim().split(/\s+/).length;
     
-    var wordCount = text.trim().split(/\s+/).length;
-    if (text.trim() === "") wordCount = 0;
-    
-    var charCount = text.length;
-
-    document.getElementById("wordCount").textContent = wordCount;
-    document.getElementById("charCount").textContent = charCount;
+    // إذا كانت النص فارغًا، وضع العدد على صفر
+    if (text.trim() === '') {
+        document.getElementById('wordCountDisplay').innerText = 'Words: 0';
+    } else {
+        document.getElementById('wordCountDisplay').innerText = 'Words: ' + wordCount;
+    }
 }

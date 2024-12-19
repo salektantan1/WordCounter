@@ -63,7 +63,7 @@ header p {
     background-color: #0056b3;
 }
 
-#word-counter-tool #wordCountDisplay {
+#word-counter-tool #wordCountDisplay, #word-counter-tool #charCountDisplay {
     font-size: 22px;
     margin-top: 20px;
     color: #555;
